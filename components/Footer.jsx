@@ -10,15 +10,16 @@ const Footer = ({isDarkMode}) => {
 
         <div className="w-max flex items-center gap-2 mx-auto">
             <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt='iconmail' className="w-6" />
-            harshlahoty2015@gmail.com
+            harshlahoty2015@gmail.com | karanbirc20@gmail.com
+
         </div>
       </div>
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-        <p>&copy; {new Date().getFullYear()} Harsh Lahoty. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
             <li><a target='_blank' href="https://github.com/MrLahoty">GitHub</a></li>
             <li><a target='_blank' href="https://www.linkedin.com/in/harsh-lahoty-932849232/">LinkedIn</a></li>
-            <li><a target='_blank' href="https://www.instagram.com/harshlahoty">Instagram</a></li>
+            {/* <li><a target='_blank' href="https://www.instagram.com/harshlahoty">Instagram</a></li> */}
         </ul>
       </div>
     </div>

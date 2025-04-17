@@ -23,13 +23,15 @@ const Services = () => {
       transition={{delay: 0.5, duration: 0.5}}
       className="text-center text-5xl font-Ovo">My Services</motion.h2>
 
-      <motion.p 
-      initial={{opacity: 0}}
-      whileInView={{opacity: 1}}
-      transition={{delay: 0.7, duration: 0.5}}
-      className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-        I am a web developer from Guwahati, India with 2 years of experience with 10+ projects. 
-      </motion.p>
+<motion.p 
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ delay: 0.7, duration: 0.5 }}
+  className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
+>
+  We are web developers from Guwahati, India, with 3 years of coding experience and 4 years of expertise in video editing, having worked on multiple projects.
+</motion.p>
+
 
       <motion.div 
       initial={{ opacity: 0}}
