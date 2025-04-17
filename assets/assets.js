@@ -105,7 +105,10 @@ export const workData = [
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: 'https://lms-client-ruddy.vercel.app/' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    // { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
+    { icon: assets.ui_icon,
+        title: 'AI Models',
+        description: 'Explore and interact with a collection of AI models designed for diverse use cases, ensuring seamless user experiences and intelligent solutions.',
+        link: '/ai-models' },
     {
         icon: assets.graphics_icon,
         title: 'Video Editing',
