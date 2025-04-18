@@ -16,6 +16,7 @@ const Header = () => {
 >
   <Image src={assets.profile_img} alt="karan" className="rounded-full w-32" />
   <Image src={assets.profile_image2} alt="harsh" className="rounded-full w-32" />
+  <Image src={assets.profile_image3} alt="harsh" className="rounded-full w-32" />
 </motion.div>
 
 
@@ -25,7 +26,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
       >
-        Hi! We are Karanbir Chakraborty and Harsh Lahoty
+        Hi! We are Karanbir Chakraborty, Harsh Lahoty and Debanjan.
         <Image src={assets.hand_icon} alt="icon" className="w-6" />
       </motion.h3>
 
@@ -44,7 +45,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        We are full developers from Guwahati, India with 3 years of experience and bulit multiple projects.
+        We are fullstack developers from Guwahati, India with 3 years of experience and built multiple projects.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

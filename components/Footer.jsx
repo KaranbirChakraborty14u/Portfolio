@@ -9,10 +9,14 @@ const Footer = ({isDarkMode}) => {
         <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt='logo' className="w-36 mx-auto mb-2" />
 
         <div className="w-max flex items-center gap-2 mx-auto">
-            <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt='iconmail' className="w-6" />
-            harshlahoty2015@gmail.com | karanbirc20@gmail.com
+  <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt="iconmail" className="w-6" />
+  <div className="text-sm">
+    <span className="block sm:inline">harshlahoty2015@gmail.com</span>
+    <span className="hidden sm:inline"> | </span>
+    <span className="block sm:inline">karanbirc20@gmail.com</span>
+  </div>
+</div>
 
-        </div>
       </div>
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
         <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
